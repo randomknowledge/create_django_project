@@ -16,7 +16,7 @@ def create_virtualenv(target_directory):
 
 
 def usage():
-    print "Usage: {0} <project name>".format(sys.argv[0])
+    print "Usage: {0} <project name>".format(os.path.basename(sys.argv[0]).partition('.')[0])
     sys.exit(0)
 
 
