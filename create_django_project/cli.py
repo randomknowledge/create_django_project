@@ -25,7 +25,7 @@ def main():
         usage()
 
     cmd = "django-admin.py startproject --template=https://github.com/randomknowledge/"\
-          "django_project_template/zipball/master --extension=py,md,gitignore,txt,conf "\
+          "django_project_template/zipball/master --extension=py,md,gitignore,txt,conf,yml "\
           "{0}".format(sys.argv[1])
 
     target_directory = os.path.abspath(
